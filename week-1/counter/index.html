@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week-1 Dev Days</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <h1>You have press this button <span id="countShow">0</span> times</h1>
+    <button id="counter" class="btn"><i class="fas fa-plus-circle fa-5x"></i></button>
+</div>
+<div class="outro">Made with <i class="fas fa-heart"></i> by <a href="https://github.com/yashvardhan-verma">Yashvardhan</a> for Developer Days</div>
+</body>
+<script>
+    let counter = document.getElementById('counter');
+    let countShow = document.getElementById('countShow')
+    let count = 0;
+    counter.onclick = function (){
+        count += 1;
+        countShow.innerText = count;
+        console.log(count);
+    }
+</script>
+</html>
