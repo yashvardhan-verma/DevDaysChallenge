@@ -1,5 +1,5 @@
 import React from "react";
-import '../Intro.css';
+import '../css/Intro.css';
 import logo from "../monkey-developer.gif";
 export default function (){
     return(
@@ -10,7 +10,7 @@ export default function (){
                 <h2>Fullstack developer</h2>
             </div>
             <div className="hero=img">
-                <img src={logo} alt=""/>
+                <img id="logo" src={logo} alt=""/>
             </div>
         </div>
     )

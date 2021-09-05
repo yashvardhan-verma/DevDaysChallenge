@@ -1,6 +1,6 @@
 .intro{
     /*background: linear-gradient(#5390d9, #80ffdb);*/
-    background-color: rgba(97, 165, 194, 1);
+    background-color: rgba(97, 165, 194, 0.7);
     color: #013A63;
 }
 .intro{
@@ -13,4 +13,8 @@
 .hero-intro h1{
     font-size: 52px;
     font-weight: bold;
+}
+
+#logo{
+    aspect-ratio: 16 / 9;
 }
