@@ -10,11 +10,24 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.hero-intro h1{
-    font-size: 52px;
-    font-weight: bold;
+.hero-intro h2{
+    font-size: 50px;
+}
+.hero-intro p{
+    font-size: 20px;
 }
 
 #logo{
-    aspect-ratio: 16 / 9;
+    max-height: 430px;
+    max-width: 500px;
+}
+
+.socials{
+    width: 15vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+.fab{
+    color: #013A63;
 }

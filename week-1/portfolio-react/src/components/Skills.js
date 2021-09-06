@@ -18,26 +18,43 @@ export default function () {
         <div className="container">
             <div className="title">
                 <h1>My Tech Stack</h1>
-                <h1>My Projects</h1>
+                <h1>My Skills</h1>
             </div>
 
             <div className="skill-set">
                 <div className="frontend">
-                    <img src={html} alt="" className="front-png"/>
-                    <img src={css} alt="" className="front-png"/>
-                    <img src={javascript} alt="" className="front-png"/>
-                    <img src={bootstrap} alt="" className="front-png"/>
-                    <img src={node} alt="" className="front-png"/>
-                    <img src={express} alt="" className="front-png"/>
-                    <img src={sql} alt="" className="front-png"/>
-                    <img src={mongo} alt="" className="front-png"/>
-                    <img src={clang} alt="" className="front-png"/>
-                    <img src={python} alt="" className="front-png"/>
-                    <img src={java} alt="" className="front-png"/>
-                    <img src={arduino} alt="" />
+                    <div className="flex-1">
+                        <img src={html} alt="" className="front-png"/>
+                        <img src={css} alt="" className="front-png"/>
+                        <img src={javascript} alt="" className="front-png"/>
+                        <img src={bootstrap} alt="" className="front-png"/>
+                    </div>
+                    <div className="flex-1">
+                        <img src={node} alt="" className="front-png"/>
+                        <img src={express} alt="" className="front-png"/>
+                        <img src={sql} alt="" className="front-png"/>
+                        <img src={mongo} alt="" className="front-png"/>
+                    </div>
+                    <div className="flex-1">
+                        <img src={clang} alt="" className="front-png"/>
+                        <img src={python} alt="" className="front-png"/>
+                        <img src={java} alt="" className="front-png"/>
+                        <img src={arduino} alt="" className="front-png"/>
+                    </div>
                 </div>
-                <div className="backend">
-                    <h4>Here some of my web dev, ML and hardware projects will be shown</h4>
+                <div className="skill-meter">
+                    <div className="progress">
+                        <label htmlFor="file"><h3>Web Dev</h3></label>
+                        <progress max="100" value="80" />
+                    </div>
+                    <div className="progress">
+                        <label htmlFor="file"><h3>Programming</h3></label>
+                        <progress max="100" value="90" />
+                    </div>
+                    <div className="progress">
+                        <label htmlFor="file"><h3>Databases</h3></label>
+                        <progress max="100" value="85" />
+                    </div>
                 </div>
             </div>
         </div>
