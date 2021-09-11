@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/Intro.css';
-import logo from "../monkey-developer.gif";
+import logo from "../monkey-com.gif";
 export default function (){
     return(
         <div className="intro">
